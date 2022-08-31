@@ -20,7 +20,7 @@ Here's a list of our [connectors with their health status](docs/integrations/).
 
 ```bash
 git clone https://github.com/airbytehq/airbyte.git
-Do follow as shown in (Images)[https://github.com/ShubhamGupta505/Airbyte/tree/main/Images] folder
+Do follow as shown in [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder
 cd airbyte
 sudo chmod +x start.sh
 ./start.sh
