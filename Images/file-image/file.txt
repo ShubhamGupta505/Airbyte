@@ -7,9 +7,9 @@ In Airbyte-File:-
 	write in URL: first start with /local and write your file path which is located in /tmp/airbyte_local.
 	here /tmp/airbyte_local is /local.
 	
-	e.g.:- /tmp/airbyte_local/tran/pets.csv we have to write like this ( /local/tran/pets.csv )
+	e.g.:- /tmp/airbyte_local/tran/user.csv we have to write like this ( /local/tran/user.csv )
 	
 The file is available in /tmp/airbyte_local.
 
 
-Dataset Name:- file_name (like, in pets.csv we take pets for this)
+Dataset Name:- file_name (like, in user.csv we take user for this)
