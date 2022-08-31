@@ -20,13 +20,15 @@ Here's a list of our [connectors with their health status](docs/integrations/).
 
 ```bash
 git clone https://github.com/airbytehq/airbyte.git
+Do follow as shown in (Images)[https://github.com/ShubhamGupta505/Airbyte/tree/main/Images] folder
 cd airbyte
-docker-compose up
+sudo chmod +x start.sh
+./start.sh
 ```
 
 Now visit [http://localhost:8000](http://localhost:8000)
 
-Here is a [step-by-step guide](https://github.com/airbytehq/airbyte/tree/e378d40236b6a34e1c1cb481c8952735ec687d88/docs/quickstart/getting-started.md) showing you how to load data from an API into a file, all on your computer.
+Here is a [step-by-step guide] showing you how to load data from an API into a file, all on your computer.
 
 ## Features
 
