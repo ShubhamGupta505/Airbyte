@@ -28,9 +28,7 @@ sudo chmod +x start.sh
 
 Now visit [http://localhost:8000](http://localhost:8000)
 
-This is the link for [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder.
-
-Here is a [step-by-step guide] showing you how to load data from an API into a file, all on your computer.
+This is the link for [Images](/Images/) folder.
 
 ## Features
 
