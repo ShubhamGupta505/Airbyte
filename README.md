@@ -25,9 +25,10 @@ cd airbyte
 sudo chmod +x start.sh
 ./start.sh
 ```
-This is the link for [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder.
 
 Now visit [http://localhost:8000](http://localhost:8000)
+
+This is the link for [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder.
 
 Here is a [step-by-step guide] showing you how to load data from an API into a file, all on your computer.
 
@@ -62,12 +63,4 @@ For general help using Airbyte, please refer to the official Airbyte documentati
 * [GitHub](https://github.com/airbytehq/airbyte) \(Bug reports, Contributions\)
 * [Twitter](https://twitter.com/airbytehq) \(Get the news fast\)
 * [Weekly office hours](https://airbyte.io/weekly-office-hours/) \(Live informal 30-minute video call sessions with the Airbyte team\)
-
-## Roadmap
-
-Check out our [roadmap](https://app.harvestr.io/roadmap/view/pQU6gdCyc/launch-week-roadmap) to get informed on what we are currently working on, and what we have in mind for the next weeks, months and years.
-
-## License
-
-See the [LICENSE](docs/project-overview/licenses/) file for licensing information, and our [FAQ](docs/project-overview/licenses/license-faq.md) for any questions you may have on that topic. 
 
