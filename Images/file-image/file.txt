@@ -4,7 +4,7 @@ In local path:-
 move your csv/json file to /tmp/airbyte_local localtion
 
 In Airbyte-File:-
-	write in URL: first start with /local and write your file path which is located in /tem/airbyte_local.
+	write in URL: first start with /local and write your file path which is located in /tmp/airbyte_local.
 	here /tmp/airbyte_local is /local.
 	
 	e.g.:- /tmp/airbyte_local/tran/pets.csv we have to write like this ( /local/tran/pets.csv )
