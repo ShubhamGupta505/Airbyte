@@ -20,12 +20,12 @@ Here's a list of our [connectors with their health status](docs/integrations/).
 
 ```bash
 git clone https://github.com/airbytehq/airbyte.git
-Do follow as shown in [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder
+Do follow as shown in Images folder.
 cd airbyte
 sudo chmod +x start.sh
 ./start.sh
 ```
-
+This is the link for [Images](https://github.com/ShubhamGupta505/Airbyte/tree/main/Images) folder.
 Now visit [http://localhost:8000](http://localhost:8000)
 
 Here is a [step-by-step guide] showing you how to load data from an API into a file, all on your computer.
