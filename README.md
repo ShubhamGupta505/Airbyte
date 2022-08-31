@@ -26,6 +26,8 @@ sudo chmod +x start.sh
 ./start.sh
 ```
 
+Write your Aws_access_key and Aws_Secret_key in consumer.py(/kafka/consumer.py)
+
 Now visit [http://localhost:8000](http://localhost:8000)
 
 This is the link for [Images](/Images/) folder.
