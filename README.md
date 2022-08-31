@@ -32,6 +32,8 @@ Now visit [http://localhost:8000](http://localhost:8000)
 
 This is the link for [Images](/Images/) folder.
 
+If you want to use FILE as airbyte source than first transfer you csv file to /tmp/airbyte_local destination in local file system.
+
 ## Features
 
 * **Built for extensibility**: Adapt an existing connector to your needs or build a new one with ease.
