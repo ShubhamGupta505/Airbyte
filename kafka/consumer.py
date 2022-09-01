@@ -30,7 +30,7 @@ if __name__=='__main__':
         dataframe = pd.concat([dataframe, df])
         print(dataframe)
         dataframe = dataframe.drop_duplicates(subset=['_id','email'], keep='last')
-        dataframe.to_csv("/home/data.csv")
+        dataframe.to_csv("/home/data.csv",encoding='utf-8')
         # dataframe.drop(columns = ["index"], inplace = True)
         # print(dataframe)
         # df4 = df.append(df2, ignore_index = True)
