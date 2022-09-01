@@ -10,7 +10,6 @@ if __name__=='__main__':
     consumer = KafkaConsumer(bootstrap_servers=['localhost:9092'],auto_offset_reset='earliest')
     consumer.assign([TopicPartition('orders', 0)])
     print("starting the consumer")
-    print('abcd')
     dataframe = pd.DataFrame(columns=['_id','first_name','last_name','gender', 'city','email']) # Note that there are now row data inserted.
     i = 0
     # print(dataframe)
