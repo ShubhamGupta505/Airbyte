@@ -1,0 +1,29 @@
+/etc/kafka/server.properties
+
+delete.topic.enable=true 
+log.dirs=/var/lib/kafka/data
+zookeeper.connect=zookeeper:2181/kafka
+
+kafka-console-producer --broker-list kafka:9093 --topic orders
+
+kafka-topics --create --zookeeper zookeeper:2181/kafka --replication-factor 1 --partitions 1 --topic orders
+
+kafka-topics --zookeeper zookeeper:2181/kafka --list
+
+kafka-console-consumer --bootstrap-server kafka:9093 --topic orders --from-beginning --partition 0
+
+/usr/bin/kafka-server-start /etc/kafka/server.properties
+
+kafka-topics --zookeeper zookeeper:2181/kafka --delete --topic orders
+
+
+pip install kafka-python
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python get-pip.py
+pip install --upgrade setuptools
+
+pip install pandas
+pip install pyarrow
+pip install pandasql
+pip install boto3
